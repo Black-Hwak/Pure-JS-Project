@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    text-align: center;
+}
+body{
+    padding: 30px 50px;
+}
+
+h2{
+    color: red;
+}
+
+table{
+    border: 1px solid black;
+    text-align: 100%;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+}
+
+td{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#restart{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px 15px;
+    border-radius: 3px;
+}
