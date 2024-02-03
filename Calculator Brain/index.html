@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator Brain</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h2>Calculator Brain</h2>
+
+    <div>
+        <button onclick="start()" id="startBtn" class="activeBtn">Start</button>
+        <button onclick="stop()" id="stopBtn" class="inactiveBtn" disabled>Stop</button>
+    </div>
+
+    <div class="fields">
+        <fieldset class="questField">
+            <legend>Question</legend>
+            <p id="showQuest">=> </p>
+        </fieldset>
+
+        <fieldset class="ansField">
+            <legend>Answer</legend>
+            <input id="fillAns" type="text" disabled>
+        </fieldset>
+    </div>
+
+    <div class="okBtn">
+        <button onclick="checkAnswer()">OK</button>
+    </div>
+
+    <div class="history">
+        <h3>History</h3>
+        <ol id="historyLists">
+        </ol>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

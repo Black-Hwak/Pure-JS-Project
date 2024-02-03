@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h2,legend {
+    color: red;
+}
+
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid;
+}
+
+#startBtn{
+    float: left;
+}
+
+#stopBtn{
+    float: right;
+    background-color: gray;
+}
+
+.activeBtn{
+    background-color: rgb(122,201,122);
+}
+
+.inactiveBtn{
+    background-color: gray;
+}
+
+.fields{
+    clear: both;
+}
+
+fieldset{
+    width: 40%;
+    height: 80px;
+    display: inline;
+}
+
+.questField{
+    float: left;
+}
+
+.ansField{
+    float: right;
+}
+
+.okBtn{
+    clear: both;
+}
+
+.okBtn button{
+    background-color: rgb(186, 10, 186);
+}
+
