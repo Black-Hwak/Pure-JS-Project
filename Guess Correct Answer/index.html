@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game 2</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <!-- Title -->
+    <h2>Guess Correct Number</h2>
+
+    <!-- Notice -->
+    <div id="notice">
+        <p>- For <b>division</b>, round to the <b>nearest</b> integer.</p>
+        <p>- Occasionally, the <b>correct</b> or <b>incorrect</b> answers may be <b>duplicated</b>. Feel free to choose any of them.</p>
+    </div>    
+
+    <!-- Score -->
+    <div>
+        <p id="score">Score : </p>
+    </div>
+
+    <!-- Time -->
+    <div>
+        <p id="time">Time : </p>
+    </div>
+
+    <div class="btn">
+        <button onclick="start()" id="startBtn" class="activeBackground">Start</button>
+    </div>
+
+    <div>
+        <p id="quest"> = </p>
+    </div>
+
+    <div class="card-container">
+        <div class="card" id="cardOne" onclick="checkAns(0)">
+            <p> </p>
+        </div>
+        <div class="card" id="cardTwo" onclick="checkAns(1)">
+            <p> </p>
+        </div>
+        <div class="card" id="cardThree" onclick="checkAns(2)">
+            <p> </p>
+        </div>
+    </div>
+
+    <div class="btn">
+        <button onclick="stop()" id="stopBtn" disabled>Stop</button>
+    </div>
+
+    <div>
+        <h4 class="history">History</h4>
+        <ul id="scoreLists">
+
+        </ul>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
